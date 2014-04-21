@@ -10,14 +10,14 @@ Learning a Distributed Version Control
 https://git-scm.com
 
   - Use from Command Line
-  - Use line endings as is
+  - Use line endings Windows style, Unix Style
 
 ---
 
 ## Setup
 
-    git config --global user.name
-    git config --global user.email
+    git config --global user.name <username>
+    git config --global user.email <useremail>
 
 ---
 
