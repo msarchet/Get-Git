@@ -1,12 +1,14 @@
-## Get git 
+![Git Logo](images/logo.png)
 
 Learning a Distributed Version Control
+
 
 ---
 
 ## Installation 
 
-  - [https://git-scm.com](git)
+https://git-scm.com
+
   - Use from Command Line
   - Use line endings as is
 
