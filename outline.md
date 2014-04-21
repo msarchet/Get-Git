@@ -16,8 +16,8 @@ https://git-scm.com
 
 ## Setup
 
-    git config --global user.name <username>
-    git config --global user.email <useremail>
+    git config --global user.name (username)
+    git config --global user.email (useremail)
 
 ---
 
@@ -40,7 +40,7 @@ https://git-scm.com
 
 ## See some history
 
-    git log -n <count>
+    git log -n (count)
 
 count is how many commits you want to see back
 
@@ -82,7 +82,7 @@ or
 
 ## Add a Remote
 
-    git add remote <remote> <url>
+    git add remote (remote) <url>
 
 remote - name of the remote
 
@@ -92,7 +92,7 @@ url - location of the remote
 
 ## Push It!
 
-    git push <remote> <branch>
+    git push (remote) <branch>
 
 branch is optional - will push all branches
 
@@ -102,11 +102,12 @@ remote is optional - defaults to origin
 
 ## Getting Changes
 
-    git pull <remote> <branch>
+    git pull (remote) <branch>
 
 branch is optional - will get all branches
 
 remote is optional - defaults to origin
+
 ---
 
 ## Pull Explained
@@ -117,33 +118,35 @@ remote is optional - defaults to origin
 
 ## Getting an existing repository
 
-    git clone <url> <directoryname>
+    git clone (url) <directoryname>
 
 create a local copy of the repository at the given url
 
 directoryName is optional
+
 ---
 
 ## Branching
 
 ### Create
 
-    git branch <branchname>
+    git branch (branchname)
 
 ### Switching Branches
 
-    git checkout <branchname>
+    git checkout (branchname)
 
 Shortcut
 
-    git checkout -b <branchname>
+    git checkout -b (branchname)
 
 creates and moves to the given branch
+
 ---
 
 ## Merging
   
-    git merge <branchname>
+    git merge (branchname)
 
 ---
 
