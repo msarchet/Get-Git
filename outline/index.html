@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link href="css/reset.css" rel="stylesheet" />
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" href="css/favicon.png" />
+    <link rel="apple-touch-icon" href="css/apple-touch-icon.png" />
+    <!-- Code Prettifier: -->
+<link href="css/highlight.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+  </head>
+
+  <body>
+  <div class="fallback-message">
+  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+  </div>
+    <div id="impress">
+    <div class='step' >
+    
+<h2>Get git</h2>
+
+<p>Learning a Distributed Version Control</p>
+</div>
+      <div class='step' >
+    
+<h2>Installation</h2>
+
+<ul>
+<li><a href="git">https://git-scm.com</a></li>
+<li>Use from Command Line</li>
+<li>Use line endings as is</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h2>Setup</h2>
+<pre><code class='prettyprint '>git config --global user.name
+git config --global user.email
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Create a repository</h2>
+<pre><code class='prettyprint '>git init
+</code></pre></div>
+      <div class='step' >
+    
+<h2>See What Is Up</h2>
+<pre><code class='prettyprint '>git status
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Add Something</h2>
+<pre><code class='prettyprint '>git add test.txt
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Commit It!</h2>
+<pre><code class='prettyprint '>git commit -m "Initial Commit"
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Add a Remote</h2>
+<pre><code class='prettyprint '>git add remote origin <url>
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Push It!</h2>
+<pre><code class='prettyprint '>git push origin master
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Getting Changes</h2>
+<pre><code class='prettyprint '>git pull
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Getting Changes Explained</h2>
+<pre><code class='prettyprint '>git fetch && git merge 
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Branching</h2>
+<pre><code class='prettyprint '>git branch <branchname>
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Switching Branches</h2>
+<pre><code class='prettyprint '>git checkout <branchname>
+</code></pre>
+<p>Shortcut</p>
+<pre><code class='prettyprint '>git checkout -b <branchname>
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Merging</h2>
+<pre><code class='prettyprint '>git merge <branchname>
+</code></pre></div>
+      <div class='step' >
+    
+<h2>Non CLI</h2>
+
+<ul>
+<li><a href="windows.github.com">Github for Windows</a></li>
+<li>gitk - included</li>
+<li><a href="http://code.google.com/p/tortoisegit">Tortoise Git</a></li>
+<li><a href="http://www.sourcetreeapp.com">SourceTree</a></li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h2>Code Reviews</h2>
+
+<p>Code flow</p>
+
+<ul>
+<li>Outgoing</li>
+<li>Unshared</li>
+</ul>
+
+      </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
+    
