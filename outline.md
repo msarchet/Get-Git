@@ -45,6 +45,12 @@ https://git-scm.com
 
 ---
 
+## Ignoring Files
+
+    .gitignore
+
+---
+
 ## Add a Remote
 
     git add remote origin <url>
