@@ -152,7 +152,7 @@ creates and moves to the given branch
 
 ## Non CLI
 
-- [Github for Windows](windows.github.com)
+- [Github for Windows](https://windows.github.com)
 - gitk - included
 - [Tortoise Git](http://code.google.com/p/tortoisegit)
 - [SourceTree](http://www.sourcetreeapp.com)
