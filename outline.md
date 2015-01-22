@@ -2,7 +2,6 @@
 
 Learning a Distributed Version Control
 
-
 ---
 
 ## Installation 
@@ -26,10 +25,61 @@ https://git-scm.com
     git init
 
 ---
+## Getting an existing repository
 
+    git clone (url) (directoryname)
+
+create a local copy of the repository at the given url
+
+directoryName is optional
+
+---
 ## See What Is Up
 
     git status
+
+---
+
+## Branching
+
+### Create
+
+    git branch (branchname)
+
+### Switching Branches
+
+    git checkout (branchname)
+
+Shortcut
+
+    git checkout -b (branchname)
+
+---
+## Add Something
+
+    git add <filename>
+
+---
+
+## Add Everything
+
+    git add .
+
+---
+
+## Add Multiple Items 
+
+    git add (glob | filenames)
+
+---
+
+## Commit It!
+
+    git commit
+
+or
+
+    git commit -m "message"
 
 ---
 ## See History
@@ -46,31 +96,42 @@ count is how many commits you want to see back
 
 ---
 
-## Add Something
+## Push It!
 
-    git add test.txt
+    git push (remote) (branch)
 
----
+branch is optional - will push all branches
 
-## Add Everything
-
-    git add .
+remote is optional - defaults to origin
 
 ---
 
-## Add Somethings
+## Getting Latest
 
-    git add *.txt
+    git fetch
 
 ---
 
-## Commit It!
+## Incorporate Changes
 
-    git commit
+    git merge
 
-or
+---
 
-    git commit -m "message"
+## Pull It!
+
+    git pull (remote) (branch)
+
+branch is optional - will get all branches
+
+remote is optional - defaults to origin
+
+  
+---
+
+## Merging
+  
+    git merge (branchname)
 
 ---
 
@@ -90,69 +151,9 @@ url - location of the remote
 
 ---
 
-## Push It!
-
-    git push (remote) (branch)
-
-branch is optional - will push all branches
-
-remote is optional - defaults to origin
-
----
-
-## Getting Changes
-
-    git pull (remote) (branch)
-
-branch is optional - will get all branches
-
-remote is optional - defaults to origin
-
----
-
-## Pull Explained
-
-    git fetch && git merge 
-  
----
-
-## Getting an existing repository
-
-    git clone (url) (directoryname)
-
-create a local copy of the repository at the given url
-
-directoryName is optional
-
----
-
-## Branching
-
-### Create
-
-    git branch (branchname)
-
-### Switching Branches
-
-    git checkout (branchname)
-
-Shortcut
-
-    git checkout -b (branchname)
-
-creates and moves to the given branch
-
----
-
-## Merging
-  
-    git merge (branchname)
-
----
-
 ## Non CLI
 
+- Visual Studio ( ¯\_('')_/¯ )
 - [Github for Windows](https://windows.github.com)
-- gitk - included
 - [Tortoise Git](http://code.google.com/p/tortoisegit)
 - [SourceTree](http://www.sourcetreeapp.com)
